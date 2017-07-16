@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic&subset=cyrillic-ext,cyrillic,latin);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?rt3b12");
+  src: url("../fonts/icomoon.eot?rt3b12#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?rt3b12") format("truetype"), url("../fonts/icomoon.woff?rt3b12") format("woff"), url("../fonts/icomoon.svg?rt3b12#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: url(../fonts/BebasNeue%20Bold.ttf);
+}
+@font-face {
+  font-family: 'Bebas Neue Book';
+  src: url(../fonts/BebasNeue%20Book.ttf);
+}
+@font-face {
+  font-family: 'Bebas Neue Light';
+  src: url(../fonts/BebasNeue%20Light.ttf);
+}
+@font-face {
+  font-family: 'Bebas Neue Reg';
+  src: url(../fonts/BebasNeue%20Regular.ttf);
+}
+@font-face {
+  font-family: 'Bebas Neue Thin';
+  src: url(../fonts/BebasNeue%20Thin.ttf);
+}
+@font-face {
+  font-family: 'Gabriola';
+  src: url(../fonts/gabriola.ttf);
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.container-fluid:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.container {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+[class^="sprite-"] {
+  display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e905";
+}
+
+.icon-search:before {
+  content: "\e904";
+}
+
+.icon-home2:before {
+  content: "\e906";
+}
+
+.icon-info:before {
+  content: "\e903";
+}
+
+.icon-world:before {
+  content: "\e907";
+}
+
+.icon-envelope:before {
+  content: "\e902";
+}
+
+.icon-arrow-right:before {
+  content: "\e909";
+}
+
+.icon-arrow-left:before {
+  content: "\e908";
+}
+
+iframe[name="google_conversion_frame"] {
+  z-index: -5;
+  position: absolute;
+  top: -50px;
+}
+
+.animenu__toggle {
+  display: none;
+  cursor: pointer;
+  background-color: #842841;
+  border: 0;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto !important;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.animenu__toggle .mobile-but {
+  display: block;
+  float: left;
+  padding-top: 8px;
+}
+.animenu__toggle .name-menu {
+  font-family: "Bebas Neue Book", "Open Sans";
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 33px;
+}
+
+.animenu__toggle__bar {
+  display: block;
+  width: 32px;
+  height: 4px;
+  background-color: #fff;
+  transition: 0.2s cubic-bezier(0.75, -0.55, 0.25, 1.55);
+}
+.animenu__toggle__bar + .animenu__toggle__bar {
+  margin-top: 6px;
+}
+
+.animenu__toggle--active .animenu__toggle__bar {
+  margin: 0;
+  position: absolute;
+}
+.animenu__toggle--active .animenu__toggle__bar:nth-child(1) {
+  transform: rotate(45deg);
+}
+.animenu__toggle--active .animenu__toggle__bar:nth-child(2) {
+  opacity: 0;
+}
+.animenu__toggle--active .animenu__toggle__bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.animenu {
+  display: block;
+}
+.animenu ul {
+  padding: 0;
+  list-style: none;
+}
+.animenu li, .animenu a {
+  display: inline-block;
+}
+
+.animenu__nav > li {
+  position: relative;
+  padding: 0 23px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.animenu__nav > li > a {
+  line-height: 45px;
+  font-size: 16px;
+  color: #000;
+  font-family: "Bebas Neue Reg", "Open Sans";
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.animenu__nav > li > a > span {
+  color: #842841;
+}
+.animenu__nav > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+}
+.animenu__nav > li:hover > a {
+  color: #454545;
+}
+.animenu__nav > li:hover {
+  background-color: #842841;
+}
+.animenu__nav > li:hover > a {
+  color: #fff;
+}
+.animenu__nav > li:hover span {
+  color: #fff;
+}
+
+.animenu__nav__child {
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  border-top: 4px solid #842841;
+  width: 275px;
+  background: #fff;
+  transition: margin .15s, opacity .15s;
+}
+.animenu__nav__child > li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 36px;
+  width: 40%;
+}
+.animenu__nav__child > li:last-child {
+  border: 0;
+}
+.animenu__nav__child > li a {
+  font-family: "Bebas Neue Reg", "Open Sans";
+  color: #000;
+}
+.animenu__nav__child a {
+  width: 100%;
+}
+.animenu__nav__child a:hover {
+  color: #454545;
+}

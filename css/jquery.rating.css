@@ -1,0 +1,25 @@
+.fast-rating{bottom:0;height:50px;margin-left:83px;position:absolute;width:170px;z-index:99999;}
+div.vote-wrap{overflow:hidden;}
+div.vote-block{position:relative;}
+div.vote-hover{float:left;}
+div.vote-stars{position:absolute;left:0;top:0;}
+div.vote-active{position:absolute;left:0;top:0;}
+div.vote-result{color:#ccc;font-size:14px;margin-top:12px;padding-left:190px;}
+div.vote-success{clear:both;color:#ccc;font-size:14px;margin:10px 0 0 10px;}
+.rating{position:relative;font-size:13px;}
+.rating-words{margin-left:15px;}
+.rating a, .rating-words a, .fast-rating{color:black !important;text-decoration:underline;font-size:13px;}
+.shop-rating{margin-left:150px;width:170px;height:50px;}
+.add-review{
+    background-color: #842841;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    font-family: "Bebas Neue Book",sans-serif;
+    font-size: 28px;
+    height: 100%;
+    line-height: 50px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    width: 165px;
+}

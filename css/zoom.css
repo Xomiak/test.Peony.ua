@@ -1,0 +1,116 @@
+html,
+body,
+div,
+a,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.clear {
+  clear: both;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li a {
+
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+
+ {
+  width: 100%;
+  height: 333px;
+}
+
+.ppoduct_left_sidebar {
+  width: 115px;
+  float: left;
+  position: relative;
+  margin-top: 40px;
+
+}
+
+
+/*
+.multizoom1.thumbs a img {
+  width: 75px;
+  margin-bottom: 10px;
+  border: 1px solid #8a8a8a;
+  opacity: 0.5;
+}
+*/
+.multizoom1.thumbs a img:hover {
+  opacity: 1;
+}
+
+
+.share2 {
+  position: absolute;
+  right: 128px;
+  top: 570px;
+  width: 100px;
+}
+
+.uptolike-buttons {
+  margin-right: 265px !important;
+}
+
+
+.targetarea {
+
+  float: left;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.targetarea img {
+
+  margin: auto;
+  display: block;
+  position: relative;
+  border-width: 0;
+}
+/*
+.thumbs {
+  width: 117px;
+  float: left;
+  margin-top: 2px;
+}
+*/
+.thumbs a {
+  text-decoration: none;
+}
+
+.thumbs img {
+  border-width: 0;
+}

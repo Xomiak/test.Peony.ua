@@ -1,0 +1,77 @@
+
+
+.shop_left_sidebar{
+    width:20%;
+}
+
+.header2{
+    width:95%;
+}
+
+ .page_right_sidebar{
+    padding-left:5%;
+    width:74%;
+ }
+.page_right_sidebar_news{
+    width:62%;
+    padding-left:15%;
+}
+.adress_cart {
+    width: 49%;
+}
+.plus {
+    left: -9px;
+    top: -39px;
+}
+.minus{
+    left: 2px;
+    top: 3px;
+}
+.shoppart_left .minus{
+    left:-23px;
+    top:20px;
+}
+.shoppart_left .plus{
+    left:-32px;
+    top:-21px;
+}
+.details{
+    width: 98.5%;
+    left:2px;
+}
+.razdel1,.razdel2,.razdel3, .razdel
+	{
+	   min-width: 275px;
+       position:relative;
+       left:-4px;
+       height:275px;
+	}
+
+.razdel1
+	{
+	background-image:url(/images/razdel_1s.png);
+	background-position: center -282px;
+	}
+.razdel1:hover
+	{
+	background-position: center 0px;	
+	}
+.razdel2
+	{
+	background-image:url(/images/razdel_2s.png);
+	background-position: center -282px;
+	}
+.razdel2:hover
+	{
+	background-position: center 0px;	
+	}
+.razdel3
+	{
+	background-image:url(/images/razdel_3s.png);
+	background-position: center -282px;
+	}
+.razdel3:hover
+	{
+	background-position: center 0px;	
+	}
+	

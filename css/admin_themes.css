@@ -1,0 +1,77 @@
+.table_fix_el.fixed .fixed_left_nav{
+    position: fixed;
+    left: 0 ;
+    top:0;
+    /*background-color: #afa;*/
+    z-index:5000;
+
+}
+
+.table_fix_el.fixed .order_list #orderstable{
+    /*background-color: chartreuse;*/
+    margin-top:130px;
+}
+/*.table_fix_el.fixed .order_list .pagination{
+    position: fixed;
+    top:47px;
+    left:200px;
+    right:0;
+    background-color: #cdcdcd;
+}*/
+/*.table_fix_el.fixed .order_list .fixed_table_description{
+    position: fixed;
+    top:70px;
+    left:200px;
+    right:0;
+    background-color: #ff0aaf;
+}*/
+.table_fix_el.fixed .order_list .title_border{
+    position: fixed;
+    top:0;
+    left:220px;
+    right:0;
+    /*background-color: #000aaa;*/
+}
+.table_fix_el.fixed .order_list{
+    position: relative;
+    /*background-color: #ff00dd;*/
+    padding-left:200px;
+}
+
+.message.fixed{
+    position: fixed;
+    z-index:5000;
+    top: 6px;
+    
+}
+
+
+
+.table_fix_el .fix_table{
+    display: none;
+    z-index:-5;
+    overflow: hidden;
+    width:100%;
+    margin-top:-20px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color: #cdcdcd;
+}
+
+.table_fix_el.fixed .fix_table{
+    width:100%;
+}
+.table_fix_el.fixed .fix_table{
+    padding-top:2px;
+    display: inline-table;
+
+    /*display: contents !important;*/
+}
+
+
+#adding_form img{
+    width:90px;
+    float: left;
+    padding-right:20px;
+    height:auto;
+}

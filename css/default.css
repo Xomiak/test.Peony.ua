@@ -1,0 +1,156 @@
+/* ------ Общие стили
+-----------------------------------------------*/
+.pd{
+padding:10px;
+background:#B0AFAF;
+float:left;
+clear:both;
+width:98%;
+margin-bottom:10px;
+font-weight: bold;
+}
+
+.code_sample{
+float:left;
+}
+
+/* ------ Стили для mobilyslider
+-----------------------------------------------*/
+
+#content {
+width:100%;
+margin:100px auto 0;
+}
+
+.slider {
+float:left;
+width:100%;
+height:auto;
+position:relative;
+padding-bottom:11px;
+}
+
+.sliderContent {
+float:left;
+width:100%;
+height:360px;
+clear:both;
+position:relative;
+overflow:hidden;
+}
+
+.sliderArrows a {
+display:block;
+text-indent:-9999px;
+outline:none;
+z-index:50;
+background-image:url(../gfx/prev_next.png);
+width:42px;
+height:42px;
+position:absolute;
+top:50%;
+margin-top:-34px;
+}
+
+.prev {
+background-position:0 0;
+left:15px;
+}
+
+.prev:hover {
+background-position:0 -44px;
+}
+
+.next {
+right:15px;
+background-position:-44px 0;
+}
+
+.next:hover {
+background-position:-44px -44px;
+}
+
+.sliderContent .item {
+position:absolute;
+
+height:380px;
+
+}
+
+.sliderBullets {
+position:absolute;
+bottom:0;
+left:50%;
+z-index:50;
+margin-left:-45px;
+}
+
+.sliderBullets a {
+display:block;
+float:left;
+text-indent:-9999px;
+outline:none;
+margin-left:5px;
+width:10px;
+height:11px;
+background:url(../gfx/bullets.png) no-repeat;
+}
+
+.sliderBullets .active {
+background-position:0 -11px;
+}
+
+.sliderContent a {
+outline:none;
+}
+
+a img {
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 999px) {
+.sliderContent
+	{
+	float:left;
+	width:100%;
+	height:259px;
+	}
+}
+
+/* Stage 3, when the layout becomes fluid, and the size of the browser. */
+
+@media screen and (max-width: 719px) {
+.sliderContent
+	{
+	float:left;
+	width:100%;
+	height:215px;
+	}
+}
+@media screen and (max-width: 479px) {
+.sliderContent
+	{
+	float:left;
+	width:100%;
+	height:140px;
+	}
+
+}

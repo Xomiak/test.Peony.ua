@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="test.peony.ua" overwriteAll="false" createEmptyFolders="true" promptOnLocalOverwrite="false">
+    <serverData>
+      <paths name="XX">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="new.xx">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="peony">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="test.peony.ua">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/peony.ua/test" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/peony.ua/test/demo" />
+            <excludedPath path="/peony.ua/test/fancybox" />
+            <excludedPath path="/peony.ua/test/fonts" />
+            <excludedPath path="/peony.ua/test/gfx" />
+            <excludedPath path="/peony.ua/test/image" />
+            <excludedPath path="/peony.ua/test/images" />
+            <excludedPath path="/peony.ua/test/img" />
+            <excludedPath path="/peony.ua/test/libs" />
+            <excludedPath path="/peony.ua/test/system" />
+            <excludedPath path="/peony.ua/test/js" />
+            <excludedPath local="true" path="$PROJECT_DIR$/demo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/fancybox" />
+            <excludedPath local="true" path="$PROJECT_DIR$/fonts" />
+            <excludedPath local="true" path="$PROJECT_DIR$/gfx" />
+            <excludedPath local="true" path="$PROJECT_DIR$/image" />
+            <excludedPath local="true" path="$PROJECT_DIR$/images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/img" />
+            <excludedPath local="true" path="$PROJECT_DIR$/libs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/system" />
+            <excludedPath local="true" path="$PROJECT_DIR$/js" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+__________________________________________________________________________
+2016-12-22 15:00: Произведена оплата через Интеркассу
+Вернувшиеся данные: 
+array(15) {
+  ["ik_co_id"]=>
+  string(24) "581a04f73c1eaf9c2e8b456f"
+  ["ik_co_prs_id"]=>
+  string(12) "305053166077"
+  ["ik_inv_id"]=>
+  string(8) "60516889"
+  ["ik_inv_st"]=>
+  string(7) "success"
+  ["ik_inv_crt"]=>
+  string(19) "2016-11-03 17:23:00"
+  ["ik_inv_prc"]=>
+  string(19) "2016-11-03 17:23:00"
+  ["ik_trn_id"]=>
+  string(0) ""
+  ["ik_pm_no"]=>
+  string(3) "960"
+  ["ik_pw_via"]=>
+  string(24) "test_interkassa_test_xts"
+  ["ik_am"]=>
+  string(5) "447.2"
+  ["ik_co_rfn"]=>
+  string(5) "447.2"
+  ["ik_ps_price"]=>
+  string(6) "460.62"
+  ["ik_cur"]=>
+  string(3) "UAH"
+  ["ik_desc"]=>
+  string(78) "Оплата заказа №960 в интернет-магазине peony.ua"
+  ["ik_sign"]=>
+  string(24) "7/WFR4odAwVo+5DUH+/Okg=="
+}
+
+
+Интеркасса не передала данные!

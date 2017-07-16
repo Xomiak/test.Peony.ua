@@ -1,0 +1,56 @@
+__________________________________________________________________________
+2016-12-16 20:42: Произведена оплата через Интеркассу
+Вернувшиеся данные: 
+array(15) {
+  ["ik_co_id"]=>
+  string(24) "581a04f73c1eaf9c2e8b456f"
+  ["ik_co_prs_id"]=>
+  string(12) "208294576808"
+  ["ik_inv_id"]=>
+  string(8) "63694213"
+  ["ik_inv_st"]=>
+  string(7) "success"
+  ["ik_inv_crt"]=>
+  string(19) "2016-12-16 20:40:15"
+  ["ik_inv_prc"]=>
+  string(19) "2016-12-16 20:42:30"
+  ["ik_trn_id"]=>
+  string(8) "19654317"
+  ["ik_pm_no"]=>
+  string(4) "1090"
+  ["ik_pw_via"]=>
+  string(31) "mastercard_liqpay_merchant3_usd"
+  ["ik_am"]=>
+  string(6) "126.30"
+  ["ik_co_rfn"]=>
+  string(8) "126.3000"
+  ["ik_ps_price"]=>
+  string(6) "131.36"
+  ["ik_cur"]=>
+  string(3) "USD"
+  ["ik_desc"]=>
+  string(79) "Оплата заказа №1090 в интернет-магазине peony.ua"
+  ["ik_sign"]=>
+  string(24) "O9ok5eLJqCXfs8dbeza3aw=="
+}
+
+
+Статус оплаты: payed
+
+__________________________________________________________________________
+2016-12-16 20:44: Произведена оплата через Интеркассу
+Вернувшиеся данные: 
+array(4) {
+  ["ik_co_id"]=>
+  string(24) "581a04f73c1eaf9c2e8b456f"
+  ["ik_inv_id"]=>
+  string(8) "63694213"
+  ["ik_inv_st"]=>
+  string(7) "success"
+  ["ik_pm_no"]=>
+  string(4) "1090"
+}
+
+
+Статус оплаты: payed
+

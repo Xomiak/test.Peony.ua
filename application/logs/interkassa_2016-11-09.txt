@@ -1,0 +1,39 @@
+__________________________________________________________________________
+2016-11-09 08:01: Произведена оплата через Интеркассу
+Вернувшиеся данные: 
+array(15) {
+  ["ik_co_id"]=>
+  string(24) "581a04f73c1eaf9c2e8b456f"
+  ["ik_co_prs_id"]=>
+  string(12) "208294576808"
+  ["ik_inv_id"]=>
+  string(8) "60965883"
+  ["ik_inv_st"]=>
+  string(7) "success"
+  ["ik_inv_crt"]=>
+  string(19) "2016-11-09 07:57:52"
+  ["ik_inv_prc"]=>
+  string(19) "2016-11-09 08:01:01"
+  ["ik_trn_id"]=>
+  string(8) "18334137"
+  ["ik_pm_no"]=>
+  string(3) "973"
+  ["ik_pw_via"]=>
+  string(32) "mastercard_liqpay_merchantUa_usd"
+  ["ik_am"]=>
+  string(5) "20.20"
+  ["ik_co_rfn"]=>
+  string(7) "20.2000"
+  ["ik_ps_price"]=>
+  string(5) "21.01"
+  ["ik_cur"]=>
+  string(3) "USD"
+  ["ik_desc"]=>
+  string(78) "Оплата заказа №973 в интернет-магазине peony.ua"
+  ["ik_sign"]=>
+  string(24) "G+YPpJPlZbykrnSWqGRW7w=="
+}
+
+
+Статус оплаты: payed
+
